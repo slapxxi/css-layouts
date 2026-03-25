@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { AboutPage } from '~/pages/about';
 import { IndexPage } from '~/pages/index';
 import { RootLayout } from '~/pages/root';
+import { SignatureCoffeePage } from '~/pages/signature-coffee';
 // styles
 import '~/styles/index.css';
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <AboutPage />,
+      },
+      {
+        path: 'signature-coffee',
+        element: <SignatureCoffeePage />,
       },
     ],
   },
