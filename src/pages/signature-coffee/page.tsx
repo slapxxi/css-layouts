@@ -7,7 +7,7 @@ import ArrowRight from '~/pages/signature-coffee/assets/arrow_right.svg?react';
 
 export const SignatureCoffeePage = () => {
   return (
-    <div className="grid min-h-screen grid-cols-[auto_1fr_auto] grid-rows-[auto_1fr] gap-6 [&>*]:col-2">
+    <div className="grid min-h-screen grid-cols-[auto_minmax(auto,1690px)_auto] grid-rows-[auto_1fr] gap-6 [&>*]:col-2">
       <header className="grid gap-1 py-3.5">
         <div className="grid grid-cols-3 items-end">
           <h3 className="flex items-center gap-2">
