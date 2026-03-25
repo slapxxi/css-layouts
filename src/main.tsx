@@ -1,10 +1,9 @@
-import './index.css';
-import './app.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { RootLayout } from './pages/RootLayout.tsx';
-import { IndexPage } from './pages/IndexPage.tsx';
+import { IndexPage } from '~/pages/IndexPage';
+import { RootLayout } from '~/pages/RootLayout';
+import '~/styles/index.css';
 
 const router = createBrowserRouter([
   {

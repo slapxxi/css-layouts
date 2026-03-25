@@ -1,7 +1,16 @@
+import { Link } from 'react-router-dom';
+
 export const IndexPage = () => {
   return (
-    <section className="min-h-screen app">
-      <h1>Hello World!</h1>
+    <section>
+      <ul className="nav">
+        <li>
+          <Link to="/about">About</Link>{' '}
+        </li>
+        <li>
+          <Link to="/main">Main Layout</Link>{' '}
+        </li>
+      </ul>
     </section>
   );
 };

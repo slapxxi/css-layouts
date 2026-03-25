@@ -1,0 +1,6 @@
+@layer base, objects;
+
+@import 'tailwindcss';
+
+@import '~/styles/base.css';
+@import '~/styles/objects/nav.css';

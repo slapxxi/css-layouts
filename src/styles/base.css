@@ -1,0 +1,17 @@
+@layer base {
+  a {
+    text-decoration: underline;
+  }
+
+  a:link {
+    color: blue;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: purple;
+  }
+}
