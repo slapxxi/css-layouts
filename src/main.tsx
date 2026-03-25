@@ -1,8 +1,12 @@
+// libs
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { IndexPage } from '~/pages/IndexPage';
-import { RootLayout } from '~/pages/RootLayout';
+// pages
+import { AboutPage } from '~/pages/about';
+import { IndexPage } from '~/pages/index';
+import { RootLayout } from '~/pages/root';
+// styles
 import '~/styles/index.css';
 
 const router = createBrowserRouter([
@@ -13,6 +17,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <IndexPage />,
+      },
+      {
+        path: 'about',
+        element: <AboutPage />,
       },
     ],
   },
