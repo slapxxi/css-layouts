@@ -1,1 +1,1 @@
-![Reference](./signature-coffee/assets/ref.png)
+![Reference](../signature-coffee/assets/ref.png)
