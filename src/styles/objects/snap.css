@@ -1,0 +1,9 @@
+@layer objects {
+  .snap {
+    scroll-snap-type: x mandatory;
+  }
+
+  .snap > * {
+    scroll-snap-align: start;
+  }
+}

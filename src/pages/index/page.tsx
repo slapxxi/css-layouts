@@ -16,6 +16,9 @@ export const IndexPage = () => {
         <h2 className="text-center text-base font-bold">Layouts</h2>
         <ul className="nav">
           <li>
+            <Link to="/riverside-golf">Riverside Golf</Link>
+          </li>
+          <li>
             <Link to="/signature-coffee">Signature Coffee</Link>
           </li>
         </ul>
