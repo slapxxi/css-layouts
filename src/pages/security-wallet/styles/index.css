@@ -1,0 +1,28 @@
+@reference 'tailwindcss';
+
+@layer components {
+  .cs-button {
+    @apply inline-flex items-center leading-tight rounded-full border-2 border-white/10 bg-purple-400/15 p-2 backdrop-blur-sm;
+  }
+
+  .cs-button-sm {
+    @apply bg-purple-300/10 px-2 py-1.5 text-sm;
+  }
+
+  .cs-button-lg {
+    @apply p-4;
+  }
+
+  .cs-text {
+    background-clip: text;
+    background-image: linear-gradient(to bottom, white, #bbb);
+    color: transparent;
+    padding: 8px 0;
+  }
+
+  .cs-blob {
+    position: absolute;
+    width: 220px;
+    height: 600px;
+  }
+}

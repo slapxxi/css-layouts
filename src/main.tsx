@@ -7,9 +7,8 @@ import { AboutPage } from '~/pages/about';
 import { IndexPage } from '~/pages/index';
 import { RiversideGolfPage } from '~/pages/riverside-golf';
 import { RootLayout } from '~/pages/root';
+import { SecurityWalletPage } from '~/pages/security-wallet';
 import { SignatureCoffeePage } from '~/pages/signature-coffee';
-// styles
-import '~/styles/index.css';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'riverside-golf',
         element: <RiversideGolfPage />,
+      },
+      {
+        path: 'security-wallet',
+        element: <SecurityWalletPage />,
       },
     ],
   },

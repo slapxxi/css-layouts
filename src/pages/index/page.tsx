@@ -21,6 +21,9 @@ export const IndexPage = () => {
           <li>
             <Link to="/signature-coffee">Signature Coffee</Link>
           </li>
+          <li>
+            <Link to="/security-wallet">Security Wallet</Link>
+          </li>
         </ul>
       </div>
     </section>
