@@ -17,9 +17,11 @@ export const AshleyHomestorePage = () => {
           <button className="ah-button">
             <Burger className="size-5" />
           </button>
-          <button className="ah-button ah-button-active">Home</button>
-          <button className="ah-button">Category</button>
-          <button className="ah-button">About Us</button>
+          <div className="inline-flex flex-wrap items-center gap-1">
+            <button className="ah-button ah-button-active">Home</button>
+            <button className="ah-button">Category</button>
+            <button className="ah-button">About Us</button>
+          </div>
         </nav>
 
         <div className="inline-grid grid-cols-[auto_3fr_1fr] gap-0.5 justify-self-center">
