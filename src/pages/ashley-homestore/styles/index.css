@@ -1,0 +1,33 @@
+@reference 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+  --bg: #f0efe9;
+  --alt-bg: #dedcd6;
+  --alt-bg-hover: color-mix(in srgb, var(--alt-bg) 80%, black);
+  --text: #b4b2ac;
+  --sans: Inter, sans-serif;
+  --serif: 'Playfair Display', serif;
+}
+
+@theme {
+}
+
+body {
+  font-family: var(--sans);
+}
+
+@layer components {
+  .ah-button {
+    @apply cursor-pointer rounded-full bg-(--alt-bg) px-4 py-2 text-sm text-zinc-800/90 hover:bg-(--alt-bg-hover) leading-snug;
+  }
+
+  .ah-button-active {
+    @apply bg-black text-white hover:bg-zinc-600;
+  }
+
+  .ah-avatar {
+    @apply rounded-full object-cover max-w-full max-h-full border-2 border-white;
+  }
+}
