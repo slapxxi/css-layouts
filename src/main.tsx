@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { AboutPage } from '~/pages/about';
 import { AshleyHomestorePage } from '~/pages/ashley-homestore';
 import { IndexPage } from '~/pages/index';
+import { MedicoPage } from '~/pages/medico';
 import { RiversideGolfPage } from '~/pages/riverside-golf';
 import { RootLayout } from '~/pages/root';
 import { SecurityWalletPage } from '~/pages/security-wallet';
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'ashley-homestore',
         element: <AshleyHomestorePage />,
+      },
+      {
+        path: 'medico',
+        element: <MedicoPage />,
       },
     ],
   },
