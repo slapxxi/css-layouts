@@ -11,6 +11,7 @@ import { RiversideGolfPage } from '~/pages/riverside-golf';
 import { RootLayout } from '~/pages/root';
 import { SecurityWalletPage } from '~/pages/security-wallet';
 import { SignatureCoffeePage } from '~/pages/signature-coffee';
+import { VonixPage } from '~/pages/vonix';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: 'medico',
         element: <MedicoPage />,
+      },
+      {
+        path: 'vonix',
+        element: <VonixPage />,
       },
     ],
   },
