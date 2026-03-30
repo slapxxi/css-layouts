@@ -1,3 +1,5 @@
+![Vonix](./public/s-vonix.jpg)
+
 ![Medico](./public/s-medico.jpg)
 
 ![Homestore](./public/s-homestore.jpg)
