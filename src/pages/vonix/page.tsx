@@ -64,23 +64,26 @@ export const VonixPage = () => {
             <use href="#c-mask" y="100%" x="50%" />
           </mask>
 
-          <rect x="-20" width="20" height="1" mask="url(#mask-1)" />
-          <rect x="100%" width="20" height="1" mask="url(#mask-1)" />
-          <rect y="-20" width="1" height="20" mask="url(#mask-1)" />
-          <rect x="100%" y="-20" width="1" height="20" mask="url(#mask-1)" />
-
-          <rect width="100%" height="1" mask="url(#mask-1)" />
-          <rect width="100%" height="1" y="100%" mask="url(#mask-1)" />
-          <rect x="0" y="0" width="1" height="100%" mask="url(#mask-1)" />
-          <rect x="0" y="50%" width="100%" height="1" mask="url(#mask-1)" />
-          <rect x="50%" width="1" height="100%" mask="url(#mask-1)" />
-          <rect x="100%" width="1" height="100%" mask="url(#mask-1)" />
           <circle r="3" id="circle" />
-          <g transform="translate(.5)">
-            <use href="#circle" x="50%" />
-            <use href="#circle" x="100%" />
-            <use href="#circle" y="50%" x="50%" />
-            <use href="#circle" y="100%" x="50%" />
+          <use href="#circle" y="50%" x="50%" />
+          <use href="#circle" x="50%" />
+          <use href="#circle" x="100%" />
+          <use href="#circle" y="100%" x="50%" />
+
+          <g transform="translate(0,-.5)">
+            <rect x="-20" width="20" height="1" mask="url(#mask-1)" />
+            <rect width="100%" height="1" mask="url(#mask-1)" />
+            <rect width="100%" height="1" y="100%" mask="url(#mask-1)" />
+            <rect x="0" y="50%" width="100%" height="1" mask="url(#mask-1)" />
+            <rect x="100%" width="20" height="1" mask="url(#mask-1)" />
+          </g>
+
+          <g transform="translate(-.5)">
+            <rect y="-20" width="1" height="20" mask="url(#mask-1)" />
+            <rect x="100%" y="-20" width="1" height="20" mask="url(#mask-1)" />
+            <rect x="0" y="0" width="1" height="100%" mask="url(#mask-1)" />
+            <rect x="50%" width="1" height="100%" mask="url(#mask-1)" />
+            <rect x="100%" width="1" height="100%" mask="url(#mask-1)" />
           </g>
         </svg>
       </div>
