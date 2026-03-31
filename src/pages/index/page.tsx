@@ -33,6 +33,9 @@ export const IndexPage = () => {
           <li>
             <Link to="/signature-coffee">Signature Coffee</Link>
           </li>
+          <li>
+            <Link to="/archevalora">Archevalora</Link>
+          </li>
         </ul>
       </div>
     </section>

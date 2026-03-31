@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // pages
 import { AboutPage } from '~/pages/about';
+import { ArchevaloraPage } from '~/pages/archevalora/page';
 import { AshleyHomestorePage } from '~/pages/ashley-homestore';
 import { IndexPage } from '~/pages/index';
 import { MedicoPage } from '~/pages/medico';
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: 'vonix',
         element: <VonixPage />,
+      },
+      {
+        path: 'archevalora',
+        element: <ArchevaloraPage />,
       },
     ],
   },
