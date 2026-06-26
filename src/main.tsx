@@ -14,6 +14,7 @@ import { SecurityWalletPage } from '~/pages/security-wallet';
 import { SignatureCoffeePage } from '~/pages/signature-coffee';
 import { VonixPage } from '~/pages/vonix';
 import { UsaTechRecruitPage } from './pages/use-tech-recruit';
+import { BrooksPage } from './pages/brooks';
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: 'usa-tech-recruit',
         element: <UsaTechRecruitPage />,
+      },
+      {
+        path: 'brooks',
+        element: <BrooksPage />,
       },
     ],
   },

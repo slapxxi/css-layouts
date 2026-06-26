@@ -1,8 +1,9 @@
 export const AboutPage = () => {
   return (
-    <section className="grid grid-cols-[auto_auto] min-h-screen justify-items-center">
-      <span>one</span>
-      <span className="row-2 col-2 bg-blue-600 text-white p-4">two</span>
-    </section>
+    <div className="grid grid-cols-[1fr_minmax(auto,1200px)_1fr] gap-x-4">
+      <footer className="col-span-full text-white grid grid-cols-subgrid bg-olive-600">
+        <div className="col-2">footer</div>
+      </footer>
+    </div>
   );
 };

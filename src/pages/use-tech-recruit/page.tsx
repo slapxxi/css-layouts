@@ -1,9 +1,9 @@
 import ChevronDown from '~/assets/chevron-down.svg?react';
-import SonyLogo from '~/assets/sony.svg?react';
+import JJLogo from '~/assets/jj.svg?react';
+import NvidiaLogo from '~/assets/nvidia.svg?react';
 import PlusIcon from '~/assets/plus.svg?react';
 import SamsungLogo from '~/assets/samsung.svg?react';
-import NvidiaLogo from '~/assets/nvidia.svg?react';
-import JJLogo from '~/assets/jj.svg?react';
+import SonyLogo from '~/assets/sony.svg?react';
 
 export const UsaTechRecruitPage = () => {
   return (
