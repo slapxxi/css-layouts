@@ -13,6 +13,7 @@ import { RootLayout } from '~/pages/root';
 import { SecurityWalletPage } from '~/pages/security-wallet';
 import { SignatureCoffeePage } from '~/pages/signature-coffee';
 import { VonixPage } from '~/pages/vonix';
+import { UsaTechRecruitPage } from './pages/use-tech-recruit';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: 'archevalora',
         element: <ArchevaloraPage />,
+      },
+      {
+        path: 'usa-tech-recruit',
+        element: <UsaTechRecruitPage />,
       },
     ],
   },
