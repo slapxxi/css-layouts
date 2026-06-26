@@ -1,4 +1,6 @@
 import ArrowRight from '~/assets/arrow-right.svg?react';
+import BrooksLogo from './assets/brooks.svg?react';
+import dudeImage from './assets/dude.png';
 
 export const BrooksPage = () => {
   return (
@@ -46,60 +48,57 @@ export const BrooksPage = () => {
         </div>
       </header>
 
-      <div className="col-span-full grid grid-cols-subgrid">
-        <div className="col-2 grid grid-cols-[1.4fr_minmax(0,150px)_1fr] grid-rows-3">
-          <svg
-            className="col-span-full row-[1/3] self-center"
-            viewBox="0 0 100 34"
+      <div className="relative col-2 grid grid-cols-3">
+        <h2 className="col-1 row-3 text-6xl font-semibold">
+          Bringing Ideas to Life Through Illustration
+        </h2>
+
+        <div className="col-span-full row-1 w-[110%] justify-self-center -mt-[140px]">
+          <BrooksLogo className="w-full" />
+        </div>
+
+        <svg
+          viewBox="0 0 20 20"
+          className="col-3 row-2 size-40 place-self-center overflow-visible"
+        >
+          <circle cx="50%" cy="50%" r="50%" className="fill-white" />
+          <g transform="rotate(-40 10 0) translate(-6 2)">
+            <ArrowRight width="8" x="50%" y="-8" fill="black" />
+          </g>
+          <text
+            x="50%"
+            y="12"
+            className="text-[4px] uppercase"
+            textAnchor="middle"
           >
-            <text fill="white" y="30" className="text-[32px]">
-              Brooks
-            </text>
-          </svg>
-
-          <h2 className="col-1 row-3 text-7xl font-semibold">
-            Bringing Ideas to Life Through Illustration
-          </h2>
-
-          <svg
-            viewBox="0 0 20 20"
-            className="col-3 row-2 size-40 place-self-center overflow-visible"
+            Let&apos;s
+          </text>
+          <text
+            x="50%"
+            y="16"
+            className="text-[4px] font-bold uppercase"
+            textAnchor="middle"
           >
-            <circle cx="50%" cy="50%" r="50%" className="fill-white" />
-            <g transform="rotate(-40 10 0) translate(-6 2)">
-              <ArrowRight width="8" x="50%" y="-8" fill="black" />
-            </g>
-            <text
-              x="50%"
-              y="12"
-              className="text-[4px] uppercase"
-              textAnchor="middle"
-            >
-              Let&apos;s
-            </text>
-            <text
-              x="50%"
-              y="16"
-              className="text-[4px] font-bold uppercase"
-              textAnchor="middle"
-            >
-              Talk
-            </text>
-          </svg>
+            Talk
+          </text>
+        </svg>
 
-          <div className="col-3 row-3 grid grid-cols-2 gap-4 self-center">
-            <p className="col-span-full text-xl">
-              I create bold digital illustrations, character designs, and visual
-              experiences for brands, startups, and creative teams worldwide.
-            </p>
-            <div className="grid gap-2">
-              <span className="text-5xl font-semibold">150+</span>
-              <span className="text-lg">Projects Completed</span>
-            </div>
-            <div className="grid gap-2">
-              <span className="text-5xl font-semibold">8+</span>
-              <span className="text-lg">Years of Creative Experience</span>
-            </div>
+        <div className="absolute col-[2/3] row-[1/4] w-[260%] self-end justify-self-center">
+          <img src={dudeImage} alt="" className="h-full w-full" />
+        </div>
+
+        <div className="col-3 row-3 grid grid-cols-2 gap-4 self-center">
+          <p className="col-span-full text-xl">
+            I create bold digital illustrations, character designs, and visual
+            experiences for brands, startups, and creative teams worldwide.
+          </p>
+          <div className="grid gap-2">
+            <span className="text-5xl font-semibold">150+</span>
+            <span className="text-lg">Projects Completed</span>
+          </div>
+          <div className="grid gap-2">
+            <span className="text-5xl font-semibold">8+</span>
+            <span className="text-lg">Years of Creative Experience</span>
           </div>
         </div>
       </div>
